@@ -1,0 +1,12 @@
+basic.forever(function () {
+    basic.showIcon(IconNames.Happy)
+    basic.showIcon(IconNames.Sad)
+    basic.showIcon(IconNames.Confused)
+    basic.showString("FLASHPARTY")
+    basic.showIcon(IconNames.Heart)
+    basic.showIcon(IconNames.Happy)
+    basic.showIcon(IconNames.Sad)
+    basic.showIcon(IconNames.Confused)
+    basic.pause(2000)
+    basic.clearScreen()
+})
